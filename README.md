@@ -593,9 +593,9 @@ But don't forget to do coding problems from above while you learn!
 - There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
 - Don't worry if you don't understand all the math behind it.
 - You just need to understand how to express the complexity of an algorithm in terms of Big-O.
-- [x] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [x] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [x] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [:no_good:] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [:no_good:] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [:no_good:] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] [Skiena (video)](https://www.youtube.com/watch?v=z1mkCe3kVUA)
 - [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
 - [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
@@ -612,83 +612,83 @@ if you can identify the runtime complexity of different algorithms. It's a super
 ## Data Structures
 
 - ### Arrays
-    - [x] About Arrays:
+    - [:no_good:] About Arrays:
         - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
         - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Implement a vector (mutable array with automatic resizing):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [x] New raw data array with allocated memory
+        - [:no_good:] New raw data array with allocated memory
             - can allocate int array under the hood, just not use its features
             - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [x] size() - number of items
-        - [x] capacity() - number of items it can hold
-        - [x] is_empty()
-        - [x] at(index) - returns item at given index, blows up if index out of bounds
-        - [x] push(item)
-        - [x] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [x] prepend(item) - can use insert above at index 0
-        - [x] pop() - remove from end, return value
-        - [x] delete(index) - delete item at index, shifting all trailing elements left
-        - [x] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [x] find(item) - looks for value and returns first index with that value, -1 if not found
-        - [x] resize(new_capacity) // private function
+        - [:no_good:] size() - number of items
+        - [:no_good:] capacity() - number of items it can hold
+        - [:no_good:] is_empty()
+        - [:no_good:] at(index) - returns item at given index, blows up if index out of bounds
+        - [:no_good:] push(item)
+        - [:no_good:] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
+        - [:no_good:] prepend(item) - can use insert above at index 0
+        - [:no_good:] pop() - remove from end, return value
+        - [:no_good:] delete(index) - delete item at index, shifting all trailing elements left
+        - [:no_good:] remove(item) - looks for value and removes index holding it (even if in multiple places)
+        - [:no_good:] find(item) - looks for value and returns first index with that value, -1 if not found
+        - [:no_good:] resize(new_capacity) // private function
             - when you reach capacity, resize to double the size
             - when popping an item, if size is 1/4 of capacity, resize to half
-    - [x] Time
+    - [:no_good:] Time
         - O(1) to add/remove at end (amortized for allocations for more space), index, or update
         - O(n) to insert/remove elsewhere
-    - [x] Space
+    - [:no_good:] Space
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
 - ### Linked Lists
-    - [x] Description:
-        - [x] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
-        - [x] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
-        - [x] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
-    - [x] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+    - [:no_good:] Description:
+        - [:no_good:] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+        - [:no_good:] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+        - [:no_good:] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+    - [:no_good:] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - not the whole video, just portions about Node struct and memory allocation
-    - [x] Linked List vs Arrays:
+    - [:no_good:] Linked List vs Arrays:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
-    - [x] [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [x] Gotcha: you need pointer to pointer knowledge:
+    - [:no_good:] [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [:no_good:] Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [x] Implement (I did with tail pointer & without):
-        - [x] size() - returns number of data elements in list
-        - [x] empty() - bool returns true if empty
-        - [x] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [x] push_front(value) - adds an item to the front of the list
-        - [x] pop_front() - remove front item and return its value
-        - [x] push_back(value) - adds an item at the end
-        - [x] pop_back() - removes end item and returns its value
-        - [x] front() - get value of front item
-        - [x] back() - get value of end item
-        - [x] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [x] erase(index) - removes node at given index
-        - [x] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [x] reverse() - reverses the list
-        - [x] remove_value(value) - removes the first item in the list with this value
-    - [x] Doubly-linked List
+    - [:no_good:] Implement (I did with tail pointer & without):
+        - [:no_good:] size() - returns number of data elements in list
+        - [:no_good:] empty() - bool returns true if empty
+        - [:no_good:] value_at(index) - returns the value of the nth item (starting at 0 for first)
+        - [:no_good:] push_front(value) - adds an item to the front of the list
+        - [:no_good:] pop_front() - remove front item and return its value
+        - [:no_good:] push_back(value) - adds an item at the end
+        - [:no_good:] pop_back() - removes end item and returns its value
+        - [:no_good:] front() - get value of front item
+        - [:no_good:] back() - get value of end item
+        - [:no_good:] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+        - [:no_good:] erase(index) - removes node at given index
+        - [:no_good:] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
+        - [:no_good:] reverse() - reverses the list
+        - [:no_good:] remove_value(value) - removes the first item in the list with this value
+    - [:no_good:] Doubly-linked List
         - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - No need to implement
 
 - ### Stack
-    - [x] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
-    - [x] Will not implement. Implementing with array is trivial
+    - [:no_good:] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [:no_good:] Will not implement. Implementing with array is trivial
 
 - ### Queue
-    - [x] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
-    - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [x] Implement using linked-list, with tail pointer:
+    - [:no_good:] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [:no_good:] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [:no_good:] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)
         - empty()
-    - [x] Implement using fixed-sized array:
+    - [:no_good:] Implement using fixed-sized array:
         - enqueue(value) - adds item at end of available storage
         - dequeue() - returns value and removes least recently added element
         - empty()
@@ -702,12 +702,12 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
 - ### Hash table
     - [ ] Videos:
-        - [x] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
-        - [x] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [x] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [x] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
-        - [x] [PyCon 2017: The Dictionary Even Mightier (video)](https://www.youtube.com/watch?v=66P5FMkWoVU)
-        - [x] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
+        - [:no_good:] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+        - [:no_good:] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [:no_good:] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [:no_good:] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+        - [:no_good:] [PyCon 2017: The Dictionary Even Mightier (video)](https://www.youtube.com/watch?v=66P5FMkWoVU)
+        - [:no_good:] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
     - [ ] Online Courses:
